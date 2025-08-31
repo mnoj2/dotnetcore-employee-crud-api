@@ -54,19 +54,18 @@ EmployeeAdminPortal/
 🔧 How to Run
 
 1. Clone this repo
-   ```bash
+   
    git clone https://github.com/your-username/dotnetcore-employee-crud-api.git
    cd dotnetcore-employee-crud-api
 
 2. Update the connection string in `appsettings.json`:
 
-   ```json
    "ConnectionStrings": {
      "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=EmployeeDb;Trusted_Connection=True;TrustServerCertificate=True;"
    }
 
 3. Start the project:
-   ```bash
+
    dotnet run
 
 
