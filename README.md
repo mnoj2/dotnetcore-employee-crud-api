@@ -71,8 +71,8 @@ EmployeeAdminPortal/
 
 ✅ Example Usage
 
-- GET /api/employees** → Returns list of employees
-- POST /api/employees** → Adds a new employee
-- PUT /api/employees/{id}** → Updates an employee
-- DELETE /api/employees/{id}** → Deletes an employee
+- GET /api/employees → Returns list of employees
+- POST /api/employees → Adds a new employee
+- PUT /api/employees/{id} → Updates an employee
+- DELETE /api/employees/{id} → Deletes an employee
 
