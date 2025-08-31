@@ -25,7 +25,6 @@ This project demonstrates basic **Create, Read, Update, Delete (CRUD)** operatio
 ---
 
 ## 📂 Project Structure
-```
 
 EmployeeAdminPortal/
 ├── Controllers/
@@ -37,8 +36,6 @@ EmployeeAdminPortal/
 │   ├── UpdateEmployeeDto.cs
 │   └── Entities/Employee.cs     # Employee entity
 └── Program.cs                   # Startup config
-
-````
 
 ---
 
@@ -81,5 +78,3 @@ EmployeeAdminPortal/
 * **PUT /api/employees/{id}** → Updates an employee
 * **DELETE /api/employees/{id}** → Deletes an employee
 
-Do you want me to also give you the **Git commands** to add this README to your repo right now?
-```
