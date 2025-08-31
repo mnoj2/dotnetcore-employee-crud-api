@@ -1,5 +1,5 @@
 ```
-# Employee CRUD API (.NET Core)
+Employee CRUD API (.NET Core)
 
 A simple Employee Management CRUD API built with ASP.NET Core Web API and Entity Framework Core, using SQL Server as the database.  
 
@@ -7,7 +7,7 @@ This project demonstrates basic Create, Read, Update, Delete (CRUD) operations o
 
 ---
 
-## 🚀 Features
+🚀 Features
 - Get all employees
 - Get employee by ID
 - Add new employee
@@ -16,15 +16,15 @@ This project demonstrates basic Create, Read, Update, Delete (CRUD) operations o
 
 ---
 
-## 🛠️ Tech Stack
-- **.NET 8 / ASP.NET Core Web API**
-- **Entity Framework Core**
-- **SQL Server**
-- **Swagger (API testing)**
+🛠️ Tech Stack
+- .NET 8 / ASP.NET Core Web API**
+- Entity Framework Core**
+- SQL Server**
+- Swagger (API testing)**
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 
 EmployeeAdminPortal/
 ├── Controllers/
@@ -39,7 +39,7 @@ EmployeeAdminPortal/
 
 ---
 
-## ⚡ API Endpoints
+⚡ API Endpoints
 
 | Method | Endpoint               | Description              |
 |--------|-------------------------|--------------------------|
@@ -51,29 +51,29 @@ EmployeeAdminPortal/
 
 ---
 
-## 🔧 How to Run
+🔧 How to Run
 
-1. **Clone this repo**
+1. Clone this repo
    ```bash
    git clone https://github.com/your-username/dotnetcore-employee-crud-api.git
    cd dotnetcore-employee-crud-api
 
-2. **Update the connection string** in `appsettings.json`:
+2. Update the connection string in `appsettings.json`:
 
    ```json
    "ConnectionStrings": {
      "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=EmployeeDb;Trusted_Connection=True;TrustServerCertificate=True;"
    }
 
-3. **Start the project**:
+3. Start the project:
    ```bash
    dotnet run
 
 
-## ✅ Example Usage
+✅ Example Usage
 
-* **GET /api/employees** → Returns list of employees
-* **POST /api/employees** → Adds a new employee
-* **PUT /api/employees/{id}** → Updates an employee
-* **DELETE /api/employees/{id}** → Deletes an employee
+- GET /api/employees** → Returns list of employees
+- POST /api/employees** → Adds a new employee
+- PUT /api/employees/{id}** → Updates an employee
+- DELETE /api/employees/{id}** → Deletes an employee
 
