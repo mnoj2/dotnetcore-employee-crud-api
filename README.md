@@ -1,9 +1,9 @@
 ```
 # Employee CRUD API (.NET Core)
 
-A simple **Employee Management CRUD API** built with **ASP.NET Core Web API** and **Entity Framework Core**, using **SQL Server** as the database.  
+A simple Employee Management CRUD API built with ASP.NET Core Web API and Entity Framework Core, using SQL Server as the database.  
 
-This project demonstrates basic **Create, Read, Update, Delete (CRUD)** operations on an Employee resource.
+This project demonstrates basic Create, Read, Update, Delete (CRUD) operations on an Employee resource.
 
 ---
 
